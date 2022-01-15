@@ -33,6 +33,8 @@ public class Employee {
 	private Double empTa;
 	@Column(name = "email")
 	private String empMail;
+	@Column(name="AName")
+	private String aDname;
 	@Column(name = "egen")
 	private String empGen;
 
